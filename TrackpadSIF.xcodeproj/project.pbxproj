@@ -12,6 +12,8 @@
 		8F0D96301AE7A53A00068F13 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F0D962F1AE7A53A00068F13 /* Images.xcassets */; };
 		8F0D96331AE7A53A00068F13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F0D96311AE7A53A00068F13 /* Main.storyboard */; };
 		8F0D963F1AE7A53A00068F13 /* TrackpadSIFTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0D963E1AE7A53A00068F13 /* TrackpadSIFTests.swift */; };
+		8F0D964B1AE7A59200068F13 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0D964A1AE7A59200068F13 /* GameView.swift */; };
+		8F0D964D1AE7C04600068F13 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0D964C1AE7C04600068F13 /* Game.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,8 @@
 		8F0D96381AE7A53A00068F13 /* TrackpadSIFTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrackpadSIFTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F0D963D1AE7A53A00068F13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8F0D963E1AE7A53A00068F13 /* TrackpadSIFTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackpadSIFTests.swift; sourceTree = "<group>"; };
+		8F0D964A1AE7A59200068F13 /* GameView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		8F0D964C1AE7C04600068F13 /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +79,8 @@
 		8F0D96281AE7A53A00068F13 /* TrackpadSIF */ = {
 			isa = PBXGroup;
 			children = (
+				8F0D96491AE7A54E00068F13 /* Models */,
+				8F0D96481AE7A54500068F13 /* Views */,
 				8F0D962B1AE7A53A00068F13 /* AppDelegate.swift */,
 				8F0D962D1AE7A53A00068F13 /* ViewController.swift */,
 				8F0D962F1AE7A53A00068F13 /* Images.xcassets */,
@@ -107,6 +113,22 @@
 				8F0D963D1AE7A53A00068F13 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8F0D96481AE7A54500068F13 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8F0D964A1AE7A59200068F13 /* GameView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8F0D96491AE7A54E00068F13 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8F0D964C1AE7C04600068F13 /* Game.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -209,7 +231,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8F0D962E1AE7A53A00068F13 /* ViewController.swift in Sources */,
+				8F0D964B1AE7A59200068F13 /* GameView.swift in Sources */,
 				8F0D962C1AE7A53A00068F13 /* AppDelegate.swift in Sources */,
+				8F0D964D1AE7C04600068F13 /* Game.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,6 +424,7 @@
 				8F0D96441AE7A53A00068F13 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8F0D96451AE7A53A00068F13 /* Build configuration list for PBXNativeTarget "TrackpadSIFTests" */ = {
 			isa = XCConfigurationList;
@@ -408,6 +433,7 @@
 				8F0D96471AE7A53A00068F13 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
