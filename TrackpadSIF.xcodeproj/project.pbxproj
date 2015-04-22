@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8F0D962C1AE7A53A00068F13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0D962B1AE7A53A00068F13 /* AppDelegate.swift */; };
+		8F0D962E1AE7A53A00068F13 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0D962D1AE7A53A00068F13 /* ViewController.swift */; };
+		8F0D96301AE7A53A00068F13 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F0D962F1AE7A53A00068F13 /* Images.xcassets */; };
+		8F0D96331AE7A53A00068F13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F0D96311AE7A53A00068F13 /* Main.storyboard */; };
+		8F0D963F1AE7A53A00068F13 /* TrackpadSIFTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0D963E1AE7A53A00068F13 /* TrackpadSIFTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8F0D96391AE7A53A00068F13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F0D961E1AE7A53A00068F13 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F0D96251AE7A53A00068F13;
+			remoteInfo = TrackpadSIF;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8F0D96261AE7A53A00068F13 /* TrackpadSIF.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrackpadSIF.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F0D962A1AE7A53A00068F13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F0D962B1AE7A53A00068F13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8F0D962D1AE7A53A00068F13 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8F0D962F1AE7A53A00068F13 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8F0D96321AE7A53A00068F13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8F0D96381AE7A53A00068F13 /* TrackpadSIFTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrackpadSIFTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F0D963D1AE7A53A00068F13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F0D963E1AE7A53A00068F13 /* TrackpadSIFTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackpadSIFTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8F0D96231AE7A53A00068F13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F0D96351AE7A53A00068F13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8F0D961D1AE7A53A00068F13 = {
+			isa = PBXGroup;
+			children = (
+				8F0D96281AE7A53A00068F13 /* TrackpadSIF */,
+				8F0D963B1AE7A53A00068F13 /* TrackpadSIFTests */,
+				8F0D96271AE7A53A00068F13 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8F0D96271AE7A53A00068F13 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8F0D96261AE7A53A00068F13 /* TrackpadSIF.app */,
+				8F0D96381AE7A53A00068F13 /* TrackpadSIFTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8F0D96281AE7A53A00068F13 /* TrackpadSIF */ = {
+			isa = PBXGroup;
+			children = (
+				8F0D962B1AE7A53A00068F13 /* AppDelegate.swift */,
+				8F0D962D1AE7A53A00068F13 /* ViewController.swift */,
+				8F0D962F1AE7A53A00068F13 /* Images.xcassets */,
+				8F0D96311AE7A53A00068F13 /* Main.storyboard */,
+				8F0D96291AE7A53A00068F13 /* Supporting Files */,
+			);
+			path = TrackpadSIF;
+			sourceTree = "<group>";
+		};
+		8F0D96291AE7A53A00068F13 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8F0D962A1AE7A53A00068F13 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8F0D963B1AE7A53A00068F13 /* TrackpadSIFTests */ = {
+			isa = PBXGroup;
+			children = (
+				8F0D963E1AE7A53A00068F13 /* TrackpadSIFTests.swift */,
+				8F0D963C1AE7A53A00068F13 /* Supporting Files */,
+			);
+			path = TrackpadSIFTests;
+			sourceTree = "<group>";
+		};
+		8F0D963C1AE7A53A00068F13 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8F0D963D1AE7A53A00068F13 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8F0D96251AE7A53A00068F13 /* TrackpadSIF */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F0D96421AE7A53A00068F13 /* Build configuration list for PBXNativeTarget "TrackpadSIF" */;
+			buildPhases = (
+				8F0D96221AE7A53A00068F13 /* Sources */,
+				8F0D96231AE7A53A00068F13 /* Frameworks */,
+				8F0D96241AE7A53A00068F13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TrackpadSIF;
+			productName = TrackpadSIF;
+			productReference = 8F0D96261AE7A53A00068F13 /* TrackpadSIF.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8F0D96371AE7A53A00068F13 /* TrackpadSIFTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F0D96451AE7A53A00068F13 /* Build configuration list for PBXNativeTarget "TrackpadSIFTests" */;
+			buildPhases = (
+				8F0D96341AE7A53A00068F13 /* Sources */,
+				8F0D96351AE7A53A00068F13 /* Frameworks */,
+				8F0D96361AE7A53A00068F13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F0D963A1AE7A53A00068F13 /* PBXTargetDependency */,
+			);
+			name = TrackpadSIFTests;
+			productName = TrackpadSIFTests;
+			productReference = 8F0D96381AE7A53A00068F13 /* TrackpadSIFTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8F0D961E1AE7A53A00068F13 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = kwzrhouse;
+				TargetAttributes = {
+					8F0D96251AE7A53A00068F13 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					8F0D96371AE7A53A00068F13 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 8F0D96251AE7A53A00068F13;
+					};
+				};
+			};
+			buildConfigurationList = 8F0D96211AE7A53A00068F13 /* Build configuration list for PBXProject "TrackpadSIF" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8F0D961D1AE7A53A00068F13;
+			productRefGroup = 8F0D96271AE7A53A00068F13 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8F0D96251AE7A53A00068F13 /* TrackpadSIF */,
+				8F0D96371AE7A53A00068F13 /* TrackpadSIFTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8F0D96241AE7A53A00068F13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F0D96301AE7A53A00068F13 /* Images.xcassets in Resources */,
+				8F0D96331AE7A53A00068F13 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F0D96361AE7A53A00068F13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8F0D96221AE7A53A00068F13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F0D962E1AE7A53A00068F13 /* ViewController.swift in Sources */,
+				8F0D962C1AE7A53A00068F13 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F0D96341AE7A53A00068F13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F0D963F1AE7A53A00068F13 /* TrackpadSIFTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8F0D963A1AE7A53A00068F13 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8F0D96251AE7A53A00068F13 /* TrackpadSIF */;
+			targetProxy = 8F0D96391AE7A53A00068F13 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8F0D96311AE7A53A00068F13 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F0D96321AE7A53A00068F13 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8F0D96401AE7A53A00068F13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8F0D96411AE7A53A00068F13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		8F0D96431AE7A53A00068F13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TrackpadSIF/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8F0D96441AE7A53A00068F13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TrackpadSIF/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8F0D96461AE7A53A00068F13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TrackpadSIFTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrackpadSIF.app/Contents/MacOS/TrackpadSIF";
+			};
+			name = Debug;
+		};
+		8F0D96471AE7A53A00068F13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TrackpadSIFTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrackpadSIF.app/Contents/MacOS/TrackpadSIF";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8F0D96211AE7A53A00068F13 /* Build configuration list for PBXProject "TrackpadSIF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F0D96401AE7A53A00068F13 /* Debug */,
+				8F0D96411AE7A53A00068F13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F0D96421AE7A53A00068F13 /* Build configuration list for PBXNativeTarget "TrackpadSIF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F0D96431AE7A53A00068F13 /* Debug */,
+				8F0D96441AE7A53A00068F13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8F0D96451AE7A53A00068F13 /* Build configuration list for PBXNativeTarget "TrackpadSIFTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F0D96461AE7A53A00068F13 /* Debug */,
+				8F0D96471AE7A53A00068F13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8F0D961E1AE7A53A00068F13 /* Project object */;
+}
